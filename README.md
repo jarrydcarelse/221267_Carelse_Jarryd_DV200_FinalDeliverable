@@ -22,7 +22,7 @@ To use the Dentist Practice Management System, follow these steps:
 
 Clone or download the project files to your local machine.
 Place the project files in the web server's document root directory. In the case of XAMPP, this would typically be the htdocs folder.
-Access the application by opening a web browser and visiting http://localhost/dentist-practice-management. This will load the login page of the application.
+Access the application by opening a web browser and visiting http://localhost/dentist. This will load the login page of the application.
 Register an account as a receptionist by providing the required details. This will create a new profile that can be used to log in to the system.
 Log in with your receptionist credentials to access the main management portal.
 From the management portal, you can navigate through various sections of the system, including patient management, doctor management, and appointment scheduling. Perform actions such as adding, updating, and deleting patient and doctor profiles, as well as creating and managing appointments.
@@ -42,4 +42,4 @@ License
 This project is licensed under the MIT License. You are free to use, modify, and distribute the code for personal and commercial purposes.
 
 Contact
-If you have any questions or inquiries about the Dentist Practice Management System, feel free to contact [Your Name] at [your@email.com]. We appreciate your interest and support!
+If you have any questions or inquiries about the Dentist Practice Management System, feel free to contact Jarryd at jarrydcarelse@gmail.com. We appreciate your interest and support!
