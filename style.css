@@ -1,0 +1,86 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(174, 174, 174);
+    width: 100%;
+}
+
+.logo-center {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    top: 30px;
+}
+
+.navigation {
+    background-color: 
+    #F8F0E3;
+    height: 100vh;
+    margin-left: -15px;
+    top: 0px;
+    position: sticky;
+}
+
+.nav-item {
+    margin-top: 20px;
+}
+
+.navigation .nav-link {
+    text-decoration: none;
+    color: rgb(232, 95, 58);
+    padding: 20px;
+}
+
+.navigation .nav-link:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(232, 95, 58);
+   border-radius: 10px;
+}
+
+.custom {
+    position: relative;
+    background-color: transparent;
+    border: #1E1E1E;
+   border-style: double;
+    top: 200px;
+    padding: 30px;
+}
+
+.profile-card {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    left: 20px;
+}
+
+.profile-info {
+    position: relative;
+    text-align: left;
+    top: -18px;
+    background-color: rgba(89, 121, 216, 0.568);
+    padding: 20px;
+    left: 750px;
+}
+
+.profile {
+    position: relative;
+    top: 0px;
+    height: 125px;
+    background: none;
+    flex-grow: 1;
+    border-bottom: 1px solid rgb(233, 97, 43);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+
+

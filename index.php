@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="navigation">
+                    <div class="logo-center">
+                        <div class="logo-section">
+                            <img class="logo-container" src="" alt="Logo">
+
+
+                        </div>
+                    </div>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" style="background: #F7F7F7;;" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="doctors.php">Dentists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Receptionist</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Patients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.php">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10">
+
+                <!-- Rest of your website content goes here -->
+
+                <div class="profile">
+                    <div class="profile-card text-end">
+                        <div class="profile-info">
+                            <h3 class="profile-name">Jarryd Carelse</h3>
+                            <p class="receptionist-id">ID: 221267</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+
+                    <h1>Appointments</h1>
+
+                    <?php
+
+                    include 'appointments_read.php';
+
+                    ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
